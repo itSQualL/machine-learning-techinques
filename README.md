@@ -1,7 +1,9 @@
 machine-learning-techniques
 ==============================
 
-Different machine learning approaches
+You can find documentation about different milestones in docs folder
+
+[DOCS](docs)
 
 Project Organization
 ------------
@@ -15,7 +17,7 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── docs               <- Documentation about milestones
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
