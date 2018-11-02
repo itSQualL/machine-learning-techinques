@@ -15,16 +15,12 @@ import pandas as pd
 
 
 ```python
-df = pd.read_csv("/home/itsquall/Descargas/T2.csv")
+df = pd.read_csv("T2.csv")
 list(df)
 print(df.shape)
 ```
 
     (78646, 245)
-
-
-    /home/itsquall/anaconda3/lib/python3.6/site-packages/IPython/core/interactiveshell.py:2785: DtypeWarning: Columns (2,145,146,147) have mixed types. Specify dtype option on import or set low_memory=False.
-      interactivity=interactivity, compiler=compiler, result=result)
 
 
 # 1. Filtering
