@@ -2,6 +2,8 @@
 
 From http://bigdata.ise.bgu.ac.il/sherlock/#/download (T2.csv) we need to preprocess, filter and cluster the data and give information about the different found clusters.
 
+You can found more info about the process on the labbook.
+
 # 0. Loading data
 
 
