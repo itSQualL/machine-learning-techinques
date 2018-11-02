@@ -3,7 +3,7 @@ machine-learning-techniques
 
 You can find documentation about different milestones in docs folder
 
-## (DOCS)[docs]
+[DOCS](docs)
 
 Project Organization
 ------------
