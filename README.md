@@ -5,6 +5,13 @@ You can find documentation about different milestones in docs folder
 
 [DOCS](docs)
 
+Problem Description
+
+We have a datasheet collected internally by a user’s smartphone each 4 seconds during a month. The purpose is to carry out an analysis of all these data, in order to analyze the behavior of the user's device and detect anomalies caused by a security attack.
+
+In order to make a good interpretation we will apply different techniques. We begin filtering data that provide us more information. Then, we apply statistical procedures (PCA) and clustering algorithms (K-Means) that reduce the variables trying to understand the relationship between them and observing how the data are grouped. 
+
+
 Project Organization
 ------------
 
