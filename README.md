@@ -6,10 +6,17 @@ You can find documentation about different milestones in docs folder
 [DOCS](docs)
 
 Problem Description
+------------
 
-We have a datasheet collected internally by a user’s smartphone each 4 seconds during a month. The purpose is to carry out an analysis of all these data, in order to analyze the behavior of the user's device and detect anomalies caused by a security attack.
+In this repository we will use Machine Learning Techniques for studying the problem of the Moriarty attack. The Moriarty malicious agent perpetrate attacks on an user's device while creating labels for the Sherlock dataset. The attack is based on the following attack model: 
+* A beningn application is initially given or repackaged to include additional code (malware like spyware). 
+* The victim installs the app without know the consequences of the required permissions. 
+
+Firstly, we have a datasheet collected internally by a user’s smartphone each 4 seconds during a month. The purpose is to carry out an analysis of all these data, in order to analyze the behavior of the user's device and detect anomalies caused by a security attack.
 
 In order to make a good interpretation we will apply different techniques. We begin filtering data that provide us more information. Then, we apply statistical procedures (PCA) and clustering algorithms (K-Means) that reduce the variables trying to understand the relationship between them and observing how the data are grouped. 
+
+In the second part of this problem, we have analized when the attack take place in a chosen datasheet. When the attack penetrate in the device we have distinguish between an benign or malicious attack. 
 
 
 Project Organization
