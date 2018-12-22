@@ -52,18 +52,10 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
 
 
-
-
-#from sklearn.model_selection import KFold
-#
-#kf = KFold(n_splits=2)
-#for train, test in kf.split(x):
-#    print("%s %s" % (train, test))
-
 for i in range(1,30):
     knn=neighbors.KNeighborsClassifier(n_neighbors=i)
     modelKNN=knn.fit(X_train, y_train)
     predKNN=modelKNN.predict(X_test)
     w= metrics.accuracy_score(predKNN,y_test)
     print(i)
-print(w)
+    print(w)
